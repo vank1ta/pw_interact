@@ -1,18 +1,14 @@
---[[
-PW Interaction Menu Documentation
+## PW Interaction Menu Documentation
 
 The PixelWorld Interaction Menu allows for User input and interaction througout the framework, and can support menus, forms and input from the end user,
 We have 3 distinct definations defined of the menu these are "Menu", "Form" and "Slider"
-]]
-----------------------
-=== STANDARD MENUS ---
-----------------------
---[[
+
+## STANDARD MENUS
     Standard Menus are for user interaction primarily, and propose a "Menu" styled interface for the user to interact with, 
     for example the PixelWorld Admin Menu is this type of menu
-
     The menu can be created from a table, here is an example listed below,
-]]--
+
+--------------------------------------------------------------------------------------------------------
 
 local menuTable = {}
 table.insert(menuTable, {['label'] = "TEXT DISPLAYED TO THE USER", ['color'] = 'primary' ['action'] = "pw_vehicleshop:client:fireStaff", ['triggertype'] = 'client', ['value'] = { ['name'] = "Name", ['table'] = v } })
